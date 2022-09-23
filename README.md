@@ -64,6 +64,7 @@ yarn generate button
 yarn storybook
 ```
 <img src="./public/assets/images/storybook.png" />
+<p align="center"><i>see in production <a href="https://awesome-stitches-template-storybook.vercel.app/?path=/story/atoms-button--button-example&args=variant:secondary">here</a></i></p>
 
 _Learn how to install `yarn` through the [official documentation](https://yarnpkg.com/)._
 
