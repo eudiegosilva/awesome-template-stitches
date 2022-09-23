@@ -1,0 +1,15 @@
+{
+  "recommendations": [
+    "dbaeumer.vscode-eslint",
+    "eamodio.gitlens",
+    "esbenp.prettier-vscode",
+    "mhutchie.git-graph",
+    "mikestead.dotenv",
+    "mkxml.vscode-filesize",
+    "naumovs.color-highlight",
+    "PKief.material-icon-theme",
+    "wix.vscode-import-cost",
+    "wmaurer.change-case",
+    "yzhang.markdown-all-in-one"
+  ]
+}
