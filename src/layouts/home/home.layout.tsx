@@ -8,15 +8,15 @@ const HomeLayout = () => {
   return (
     <s.Container>
       <Head>
-        <title>Stitches Template — NextJS</title>
+        <title>Awesome Template — Stitches</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
       <s.Wrapper>
         <Header />
         <s.Section>
           <s.Title>
-            Awesome <s.Strong css={{ color: '$primary-11' }}>Stitches</s.Strong>{' '}
-            Template for{' '}
+            Awesome Template{' '}
+            <s.Strong css={{ color: '$primary-11' }}>Stitches</s.Strong> for{' '}
             <s.Strong css={{ color: '$quaternary-11' }}>NextJS</s.Strong>{' '}
             projects.
           </s.Title>

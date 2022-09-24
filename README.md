@@ -1,4 +1,4 @@
-# Awesome Stitches Template — NextJS, TypeScript, Stitches and Design Tokens
+# Awesome Template Stitches — NextJS, TypeScript, Stitches and Design Tokens
 
 <img src="./public/assets/images/stitches-template-cover.png" />
 
@@ -64,7 +64,9 @@ yarn generate button
 yarn storybook
 ```
 <img src="./public/assets/images/storybook.png" />
-<p align="center"><i>see in production <a href="https://awesome-stitches-template-storybook.vercel.app/?path=/story/atoms-button--button-example&args=variant:secondary">here</a></i></p>
+<p align="center"><i>see in production <a href="https://awesome-template-stitches-storybook.vercel.app/?path=/story/atoms-button--button-example&args=variant:secondary">here</a></i></p>
+
+---
 
 _Learn how to install `yarn` through the [official documentation](https://yarnpkg.com/)._
 
@@ -86,7 +88,7 @@ _Learn how to install `yarn` through the [official documentation](https://yarnpk
 - [x] Automated component creation
 
 
-### [radix colors](https://www.radix-ui.com/colors)
+### [radix ui colors](https://www.radix-ui.com/colors)
 > An open-source color system for designing beautiful, accessible websites and apps.
 
 ### [stitches](https://stitches.dev/)
