@@ -1,10 +1,10 @@
-import { Story, Meta } from '@storybook/react/types-6-0';
+import { ComponentStory, ComponentMeta } from '@storybook/react';
 
-import { Button, ButtonProps } from './Button';
+import { ButtonStory } from './Button';
 
-const story: Meta<ButtonProps> = {
+const story: ComponentMeta<typeof ButtonStory> = {
   title: 'Atoms/Button',
-  component: Button,
+  component: ButtonStory,
   args: {
     variant: 'primary',
     children: 'Button',
@@ -27,9 +27,9 @@ const story: Meta<ButtonProps> = {
   parameters: {}
 };
 
-export const ButtonExample: Story<ButtonProps> = args => {
+export const ButtonExample: ComponentStory<typeof ButtonStory> = args => {
   const { children } = args;
-  return <Button {...args}>{children}</Button>;
+  return <ButtonStory {...args}>{children}</ButtonStory>;
 };
 
 export default story;

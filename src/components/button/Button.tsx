@@ -1,14 +1,14 @@
 import * as s from './button.styles';
+import { modifyVariantsForStory, VariantProps } from 'styles/utils/type-utils';
 
-export type ButtonProps = {
+type ButtonVariants = VariantProps<typeof s.ButtonWrapper>;
+export type ButtonProps = ButtonVariants & {
   children: React.ReactNode;
-  variant?: 'primary' | 'secondary';
   type?: 'button' | 'submit' | 'reset';
-  isFullWidth?: boolean;
   onClick?: () => void;
 };
 
-const Button = ({
+export const Button = ({
   children,
   variant = 'primary',
   type = 'button',
@@ -27,4 +27,6 @@ const Button = ({
   );
 };
 
-export { Button };
+export const ButtonStory = modifyVariantsForStory<ButtonVariants, ButtonProps>(
+  Button
+);
